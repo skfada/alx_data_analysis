@@ -1,0 +1,212 @@
+# ============================================================
+
+# Python
+
+# ============================================================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Distribution / packaging
+
+build/ dist/ *.egg-info/ .eggs/
+
+# Test / coverage
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking
+
+.mypy_cache/
+.pyre/
+.pytype/
+
+# ============================================================
+
+# Django
+
+# ============================================================
+
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Django migrations
+
+# Uncomment the next section if you do NOT want to commit migrations
+
+# */migrations/*
+
+# !*/migrations/**init**.py
+
+# Django static/media files
+
+/staticfiles/
+/media/
+
+# Local Django settings
+
+local_settings.py
+
+# ============================================================
+
+# Environment / Secrets
+
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# Secret/config files
+
+secrets.json
+credentials.json
+config.local.*
+
+# ============================================================
+
+# Jupyter Notebook
+
+# ============================================================
+
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+
+*.ipynb_checkpoints
+
+# ============================================================
+
+# MySQL / Database
+
+# ============================================================
+
+*.sql.bak
+*.dump
+*.sqlite
+*.sqlite3
+
+# MySQL local files
+
+*.mysql
+
+# ============================================================
+
+# Data Analysis
+
+# ============================================================
+
+# Large/raw datasets
+
+data/raw/
+data/private/
+
+# Generated datasets
+
+data/processed/
+data/output/
+
+# Excel temporary files
+
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# ============================================================
+
+# VS Code
+
+# ============================================================
+
+.vscode/
+
+# Keep VS Code extensions/settings if needed
+
+# !.vscode/settings.json
+
+# ============================================================
+
+# PyCharm / IntelliJ
+
+# ============================================================
+
+.idea/
+*.iml
+
+# ============================================================
+
+# Operating System Files
+
+# ============================================================
+
+# Windows
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+
+.DS_Store
+
+# Linux
+
+*~
+
+# ============================================================
+
+# Logs
+
+# ============================================================
+
+*.log
+logs/
+
+# ============================================================
+
+# Temporary files
+
+# ============================================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# ============================================================
+
+# Project-specific generated files
+
+# ============================================================
+
+*.csv
+*.xlsx
+*.xls
+
+# ============================================================
+
+# Keep important example files
+
+# ============================================================
+
+!.env.example
+!README.md
+!requirements.txt
+!Pipfile
+!Pipfile.lock
